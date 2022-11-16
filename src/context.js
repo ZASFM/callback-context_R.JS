@@ -51,6 +51,7 @@ const AppProvider=({children})=>{
       <AppContext.Provider
          value={{
             loading,
+            setLoading,
             cocktails,
             setSearchTerm,
          }}
